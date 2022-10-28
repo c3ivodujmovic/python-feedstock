@@ -1,7 +1,7 @@
 ### How to re-generate patches
 ```bash
-old=v3.9.6
-new=v3.10.0
+old=v3.8.13
+new=v3.8.15
 git clone git@github.com:python/cpython && cd cpython
 git reset --hard $old
 for f in ../recipe/patches/*.patch; do
